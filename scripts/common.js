@@ -8,12 +8,11 @@ img.forEach(el => {
         const indexImg = img.indexOf(this);
         slide.classList.add('active')
         const swiper = new Swiper('.swiper-container', {
-            loop: true,
             initialSlide: indexImg,
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
-            },
+            }
         });
     })
 })
