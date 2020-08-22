@@ -1,4 +1,3 @@
-import Swiper from 'https://unpkg.com/swiper/swiper-bundle.esm.browser.min.js'
 const img = [...document.querySelectorAll('.main__img')],
     slide = document.querySelector('.swiper-container')
 const swiperWrapper = document.querySelector('.swiper-wrapper')
